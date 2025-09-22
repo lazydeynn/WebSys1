@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  max-width: 900px;
+  background: #f9f9f9;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  object-fit: cover;
+}
+
+.section {
+  margin-top: 15px;
+}
+
+.section h3 {
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  font-size: 15px;
+  margin: 0;
+  border-radius: 10px;
+}
+.none {
+  opacity: 0;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  flex-wrap: wrap;
+}
+
+label {
+  width: 200px;
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 600;
+  font-family: "Times New Roman";
+}
+
+input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.personalDataLabel {
+  width: 300px;
+}
+
+.companyYear {
+  flex: none;
+  max-width: 100px;
+}
+
+.spanPosition {
+  margin-left: 20px;
+}
+
+.companyLabel {
+  max-width: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer-text {
+  flex: 1;
+}
+
+.signature {
+  text-align: right;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+span {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.data-body {
+  border: 2px solid black;
+  border-radius: 12px;
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-body {
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.footer-text {
+  font-family: "Times New Roman", Times, serif;
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-text p {
+  text-align: justify;
+}
+.signature {
+  text-align: center;
+  font-size: 14px;
+}
+.line {
+  height: 1px;
+  width: 70%;
+  justify-self: center;
+  margin-bottom: 4px;
+  background-color: black;
+}
