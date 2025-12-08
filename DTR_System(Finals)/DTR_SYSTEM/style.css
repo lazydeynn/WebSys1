@@ -1,0 +1,174 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.admin-container {
+    background: white;
+    padding: 30px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 96%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.cancel-btn {
+    width: 96%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: rgb(148, 0, 0);
+}
+
+.cancel-btn a{
+    color: white;
+}
+
+.logout-btn{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+}
+
+.logout-btn:hover{
+    background-color: #0056b3;
+}
+
+.logout-btn a, .delete-btn a, .add-btn a{
+    font-size: 14px;
+    color: white;
+}
+
+.delete-btn{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.delete-btn:hover{
+    background-color: rgb(184, 0, 0);
+}
+
+.add-btn{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(2, 196, 2);
+}
+
+.add-btn:hover{
+    background-color: rgb(0, 129, 0);
+}
+
+.search-btn{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(223, 186, 25);
+    color: white;
+}
+
+.search-btn:hover{
+    background-color: rgb(161, 135, 18);
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    background: #ffe6e6;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+h3{
+    margin-top: 0;
+}
+
+.add-user{
+    display: flex;
+}
